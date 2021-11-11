@@ -1,0 +1,153 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.nav{
+    width: 100%;
+    height: 70px;
+    background: #287b;
+}
+.nav ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.nav ul li{
+    margin-top: 20px;
+    list-style: none;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
+}
+.nav .logout{
+    align-items: flex-end;
+}
+.container{
+    width: 100%;
+    height:fit-content;
+    background: #acacac;
+        
+}
+.top{
+    background: url("1.png");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 50vh;
+}
+.top h3{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 800;
+    padding: 2rem;
+    color:darkorange
+}
+
+
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  
+  .workout {
+    flex-basis: 100%;
+    height: 250px;
+    margin: 40px;
+    padding: 20px;
+  }
+  
+  @media screen and (min-width: 800px) {
+    .workout{
+      flex: 1;
+      width: 100%;
+    }
+  }
+
+
+
+.workout.chest{
+    background: url("chest1.png");
+    background-color: #ccc;
+    background-blend-mode: multiply;
+    background-position: center;
+    background-size: cover; 
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    
+}
+.workout.arm{
+    background: url("arm.png");
+    background-position: center;
+    background-size: cover; 
+    background-color: #ccc;
+    background-blend-mode: multiply; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.workout.back{
+    background: url("back.png");
+    background-position: center;
+    background-size: cover; 
+    background-color: #ccc;
+    background-blend-mode: multiply; 
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    
+}
+.workout.shld{
+    background: url("shld.png");
+    background-position: center;
+    background-size: cover; 
+    background-color: #ccc;
+    background-blend-mode: multiply;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    
+}
+.workout.leg{
+    background: url("leg.png");
+    background-position: center;
+    background-size: cover; 
+    background-color: #ccc;
+    background-blend-mode: multiply;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    
+}
+.workout.pack{
+    background: url("pack.png");
+    background-position: center;
+    background-size: cover; 
+    background-color: #ccc;
+    background-blend-mode: multiply;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    
+}
+
+.content{
+    background: #287b;
+    width: 60%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 5rem;
+    border-bottom-right-radius: 5rem;
+}
+.content h1{
+    color: #fff;
+}
